@@ -15,6 +15,15 @@ structures:
     minecraft:village: VILLAGE
     minecraft:mineshaft: MINESHAFT
 
+features:
+  inject-registry:
+    enable: true
+  inject-biome:
+    enable: true
+    excluded-features:
+      - "minecraft:lake_water"
+      - "minecraft:lake_lava"
+
 blend:
   terrain:
     step: 3
