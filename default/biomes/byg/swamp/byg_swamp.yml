@@ -1,0 +1,9 @@
+id: BYG_SWAMP
+extends: SWAMP
+abstract: true
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+structures: []
+flora: []
+trees: []

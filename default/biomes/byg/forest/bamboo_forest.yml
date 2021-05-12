@@ -1,0 +1,11 @@
+extends: "BYG_FOREST"
+id: "BAMBOO_FOREST"
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - BAMBOO_JUNGLE: 255
+vanilla: "byg:bamboo_forest"

@@ -259,8 +259,9 @@ biomes:
             - MESA: 3
             - DESERT: 6
             - SAVANNA: 3
+            - BAOBAB_SAVANNA: 2
             - ARAUCARIA_SAVANNA: 2
-            - ARAUCARIA_FOREST: 2
+            - ARAUCARIA_FOREST: 1
             - ARID_MOUNTAINS: 1
           noise: *biome-distribute
       - mutate: # Wet warm biomes
@@ -271,17 +272,20 @@ biomes:
             - MOUNTAINS_JUNGLE: 2
             - ROCKY_TALL_FOREST: 2
             - SWAMP: 2
+            - BAYOU: 1
           noise: *biome-distribute
       - mutate: # Distribution of neutral temperature biomes.
           type: REPLACE
           from: "BIOME:PLAINS"
           to:
             - FOREST: 20
+            - BAMBOO_FOREST: 2
             - ASPEN_FOREST: 4
             - WOODLANDS: 4
             - ANCIENT_FOREST: 4
             - BIRCH_FOREST: 8
             - PLAINS: 24
+            - AUTUMNAL_VALLEY: 2
             - ALLIUM_FIELDS: 4
             - AMARANTH_FIELDS: 4
             - SKY_ISLANDS: 1
@@ -314,7 +318,7 @@ biomes:
           type: REPLACE_LIST
           to:
             ASPEN_FOREST:
-              - SELF: 3
+              - SELF: 7
               - ASPEN_CLEARING: 1
               - ASPEN_FOREST_HILLS: 2
           default-from: "BIOME:JUNGLE"
