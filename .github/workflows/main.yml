@@ -16,12 +16,6 @@ jobs:
           cd default
           cp ../LICENSE ./LICENSE
           zip -r ../default.zip *
-          cd ../nether
-          cp ../LICENSE ./LICENSE
-          zip -r ../nether.zip *
-          cd ../legacy
-          cp ../LICENSE ./LICENSE
-          zip -r ../legacy.zip *
       - name: ""
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
@@ -31,5 +25,3 @@ jobs:
           title: "Latest Build"
           files: |
             default.zip
-            nether.zip
-            legacy.zip

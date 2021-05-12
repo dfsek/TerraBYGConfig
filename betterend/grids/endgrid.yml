@@ -1,4 +1,0 @@
-grid:
-  - ["END", "END", "END", "END", "END", "END"]
-id: "END"
-extends: FREQUENCIES
