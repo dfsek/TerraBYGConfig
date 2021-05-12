@@ -1,0 +1,18 @@
+layers:
+  - materials:
+      - "minecraft:coarse_dirt": 2
+      - "minecraft:podzol": 3
+    layers: 1
+  - materials: "minecraft:dirt"
+    layers: 2
+  - materials: "minecraft:stone"
+    layers: 1
+id: "ASPEN_FOREST_HILLS"
+noise:
+  type: DomainWarp
+  warp:
+    type: WhiteNoise
+  amplitude: 3
+  function:
+    type: OpenSimplex2
+    frequency: 0.025

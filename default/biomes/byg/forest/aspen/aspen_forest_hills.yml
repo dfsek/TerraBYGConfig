@@ -1,0 +1,11 @@
+id: "ASPEN_FOREST_HILLS"
+extends: "BYG_FOREST"
+vanilla: "byg:aspen_forest_hills"
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - ASPEN_FOREST_HILLS: 255

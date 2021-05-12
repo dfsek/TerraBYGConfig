@@ -1,0 +1,3 @@
+id: "ANCIENT_FOREST"
+extends: "BYG_FOREST"
+vanilla: "byg:ancient_forest"

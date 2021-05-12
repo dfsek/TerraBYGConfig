@@ -1,0 +1,3 @@
+id: "ASPEN_CLEARING"
+extends: "BYG_FOREST"
+vanilla: "byg:aspen_clearing"

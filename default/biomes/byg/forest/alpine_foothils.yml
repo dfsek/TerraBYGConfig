@@ -1,0 +1,11 @@
+id: "ALPINE_FOOTHILLS"
+extends: "BYG_FOREST"
+vanilla: "byg:alpine_foothills"
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - TAIGA: 255
