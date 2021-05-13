@@ -1,0 +1,3 @@
+id: "BLUE_TAIGA"
+extends: "BYG_FOREST"
+vanilla: "byg:blue_taiga"

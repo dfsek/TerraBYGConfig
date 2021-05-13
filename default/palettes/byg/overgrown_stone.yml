@@ -1,0 +1,6 @@
+layers:
+  - materials: "byg:overgrown_stone"
+    layers: 1
+  - materials: "minecraft:stone"
+    layers: 1
+id: "OVERGROWN_STONE"

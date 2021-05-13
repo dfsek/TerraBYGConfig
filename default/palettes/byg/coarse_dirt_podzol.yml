@@ -7,7 +7,7 @@ layers:
     layers: 2
   - materials: "minecraft:stone"
     layers: 1
-id: "ASPEN_FOREST_HILLS"
+id: "COARSE_DIRT_PODZOL"
 noise:
   type: DomainWarp
   warp:

@@ -300,12 +300,14 @@ biomes:
           to:
             - TAIGA: 16
             - ALPINE_FOOTHILLS: 4
+            - BLUE_TAIGA: 2
           noise: *biome-distribute
       - mutate: # Distribution of cold biomes.
           type: REPLACE
           from: "BIOME:TUNDRA"
           to:
             - SNOWY_TAIGA: 8
+            - BLUFF_PEAKS: 4
             - MOUNTAINS_STONE: 8
             - TUNDRA: 6
             - YELLOWSTONE: 1
@@ -326,6 +328,10 @@ biomes:
               - SELF: 7
               - BLACK_FOREST_CLEARING: 1
               - BLACK_FOREST_HILLS: 2
+            BLUE_TAIGA:
+              - SELF: 7
+              - BLUE_GIANT_TAIGA: 1
+              - BLUE_TAIGA_HILLS: 2
           default-from: "BIOME:JUNGLE"
           default-to:
             - SELF: 8
@@ -433,6 +439,9 @@ biomes:
             SKY_ISLANDS:
               - SELF: 1
               - RIVER_SKY_ISLANDS: 1
+            BLUFF_PEAKS:
+              - SELF: 1
+              - BLUFF_PEAKS_RIVER: 1
           default-from: "RIVER_ERODE"
           default-to:
             - SELF: 1

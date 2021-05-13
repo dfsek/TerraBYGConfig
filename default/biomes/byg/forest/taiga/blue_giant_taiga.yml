@@ -1,6 +1,6 @@
-id: "ASPEN_FOREST_HILLS"
+id: "BLUE_GIANT_TAIGA"
 extends: "BYG_FOREST"
-vanilla: "byg:aspen_forest_hills"
+vanilla: "byg:blue_giant_taiga"
 palette:
   - "BLOCK:minecraft:bedrock": 0
   - BEDROCK_MOST: 1

@@ -1,0 +1,8 @@
+id: BYG_MOUNTAINS
+extends: MOUNTAINS_PRETTY
+abstract: true
+tags:
+  - "LAND"
+structures: []
+flora: []
+trees: []
