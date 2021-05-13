@@ -1,0 +1,11 @@
+id: BLACK_FOREST_CLEARING
+vanilla: "byg:black_forest_clearing"
+extends: BYG_FOREST
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - BLACK_FOREST: 255

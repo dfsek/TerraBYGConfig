@@ -250,7 +250,7 @@ biomes:
           noise: &biome-distribute
             type: Cellular # Use cellular to increase biome size.
             return: CellValue
-            frequency: 0.25
+            frequency: 0.2
             salt: 6
       - mutate: # Dry warm biomes
           type: REPLACE
@@ -279,6 +279,7 @@ biomes:
           from: "BIOME:PLAINS"
           to:
             - FOREST: 20
+            - BLACK_FOREST: 2
             - BAMBOO_FOREST: 2
             - ASPEN_FOREST: 4
             - WOODLANDS: 4
@@ -321,6 +322,10 @@ biomes:
               - SELF: 7
               - ASPEN_CLEARING: 1
               - ASPEN_FOREST_HILLS: 2
+            BLACK_FOREST:
+              - SELF: 7
+              - BLACK_FOREST_CLEARING: 1
+              - BLACK_FOREST_HILLS: 2
           default-from: "BIOME:JUNGLE"
           default-to:
             - SELF: 8

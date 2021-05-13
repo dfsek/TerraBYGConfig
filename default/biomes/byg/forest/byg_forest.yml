@@ -13,7 +13,6 @@ tags:
   - "LAND"
   - "RIVER_ERODE"
 structures:
-  - VILLAGE_PLAINS
   - STRONGHOLD
   - OUTPOST
   - DUNGEON
