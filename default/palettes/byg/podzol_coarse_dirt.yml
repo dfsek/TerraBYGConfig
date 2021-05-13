@@ -1,0 +1,20 @@
+layers:
+  - materials:
+      - "minecraft:coarse_dirt": 2
+      - "minecraft:grass_block": 3
+      - "minecraft:podzol": 2
+    layers: 1
+  - materials: "minecraft:dirt"
+    layers: 2
+  - materials: "minecraft:stone"
+    layers: 1
+id: "PODZOL_COARSE_DIRT"
+noise:
+  type: DomainWarp
+  warp:
+    type: WhiteNoise
+  amplitude: 3
+  function:
+    type: Cellular
+    return: CellValue
+    frequency: 0.025
