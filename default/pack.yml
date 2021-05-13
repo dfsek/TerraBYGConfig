@@ -74,6 +74,9 @@ features:
       - "minecraft:ore_redstone"
       - "minecraft:ore_diamond"
       - "minecraft:ore_lapis"
+      - "minecraft:patch_melon"
+      - "minecraft:patch_pumpkin"
+      - "minecraft:pile_pumpkin"
 
 blend:
   terrain:
@@ -282,6 +285,7 @@ biomes:
             - BLACK_FOREST: 2
             - BOREAL_FOREST: 3
             - BAMBOO_FOREST: 2
+            - CHERRY_BLOSSOM_FOREST: 2
             - ASPEN_FOREST: 4
             - WOODLANDS: 4
             - ANCIENT_FOREST: 4
@@ -301,6 +305,7 @@ biomes:
           to:
             - TAIGA: 16
             - ALPINE_FOOTHILLS: 4
+            - CIKA_MOUNTAINS: 3
             - BLUE_TAIGA: 2
           noise: *biome-distribute
       - mutate: # Distribution of cold biomes.
@@ -337,6 +342,9 @@ biomes:
               - SELF: 7
               - BLUE_GIANT_TAIGA: 1
               - BLUE_TAIGA_HILLS: 2
+            CHERRY_BLOSSOM_FOREST:
+              - SELF: 7
+              - CHERRY_BLOSSOM_CLEARING: 3
           default-from: "BIOME:JUNGLE"
           default-to:
             - SELF: 8
@@ -447,6 +455,9 @@ biomes:
             BLUFF_PEAKS:
               - SELF: 1
               - BLUFF_PEAKS_RIVER: 1
+            CIKA_MOUNTAINS:
+              - SELF: 1
+              - CIKA_MOUNTAINS_RIVER: 1
           default-from: "RIVER_ERODE"
           default-to:
             - SELF: 1
