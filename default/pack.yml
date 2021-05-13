@@ -280,6 +280,7 @@ biomes:
           to:
             - FOREST: 20
             - BLACK_FOREST: 2
+            - BOREAL_FOREST: 3
             - BAMBOO_FOREST: 2
             - ASPEN_FOREST: 4
             - WOODLANDS: 4
@@ -328,6 +329,10 @@ biomes:
               - SELF: 7
               - BLACK_FOREST_CLEARING: 1
               - BLACK_FOREST_HILLS: 2
+            BOREAL_FOREST:
+              - SELF: 7
+              - BOREAL_FOREST_CLEARING: 1
+              - BOREAL_FOREST_HILLS: 2
             BLUE_TAIGA:
               - SELF: 7
               - BLUE_GIANT_TAIGA: 1

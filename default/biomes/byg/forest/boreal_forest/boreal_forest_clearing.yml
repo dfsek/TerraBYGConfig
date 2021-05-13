@@ -1,0 +1,3 @@
+id: BOREAL_FOREST_CLEARING
+vanilla: "byg:boreal_clearing"
+extends: BYG_FOREST

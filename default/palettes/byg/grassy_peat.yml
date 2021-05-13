@@ -1,0 +1,19 @@
+layers:
+  - materials:
+      - "minecraft:grass_block": 2
+      - "byg:peat": 2
+    layers: 1
+  - materials: "minecraft:dirt"
+    layers: 2
+  - materials: "minecraft:stone"
+    layers: 1
+id: "GRASSY_PEAT"
+noise:
+  type: DomainWarp
+  warp:
+    type: WhiteNoise
+  amplitude: 3
+  function:
+    type: Cellular
+    return: CellValue
+    frequency: 0.025
